@@ -1,0 +1,683 @@
+[
+  {
+    "link": "https://sv.wikipedia.org/wiki/Aspsopp",
+    "name": "Aspsopp",
+    "characteristics": {
+      "hymenium": "rör",
+      "cap": "välvd",
+      "ridges": "vidfästa",
+      "edible": true,
+      "stipe": "bar",
+      "sporePrint": "oliv"
+    }
+  },
+  {
+    "link": "https://sv.wikipedia.org/wiki/Bj%C3%B6rksopp",
+    "name": "Björksopp",
+    "characteristics": {
+      "hymenium": "rör",
+      "cap": "välvd",
+      "ridges": "vidfästa",
+      "edible": true,
+      "stipe": "bar",
+      "sporePrint": "oliv"
+    }
+  },
+  {
+    "link": "https://sv.wikipedia.org/wiki/Blek_taggsvamp",
+    "name": "Blek_taggsvamp",
+    "characteristics": {
+      "hymenium": "taggar",
+      "cap": "nedsänkt mitt",
+      "ridges": "nedlöpande",
+      "edible": true,
+      "stipe": "bar",
+      "sporePrint": "vit"
+    }
+  },
+  {
+    "link": "https://sv.wikipedia.org/wiki/Blek_kantarell",
+    "name": "Blek_kantarell",
+    "characteristics": {
+      "hymenium": "vecklad",
+      "cap": "trattlik",
+      "ridges": "inga",
+      "edible": false,
+      "stipe": "bar",
+      "sporePrint": "gult"
+    }
+  },
+  {
+    "link": "https://sv.wikipedia.org/wiki/Blodriska",
+    "name": "Blodriska",
+    "characteristics": {
+      "hymenium": "skivor",
+      "cap": "nedsänkt mitt",
+      "ridges": "nedlöpande",
+      "edible": true,
+      "stipe": "bar",
+      "sporePrint": "ljusbrun"
+    }
+  },
+  {
+    "link": "https://sv.wikipedia.org/wiki/Bl%C3%A5musseron",
+    "name": "Blåmusseron",
+    "characteristics": {
+      "hymenium": "skivor",
+      "cap": "välvd",
+      "ridges": "urnupna",
+      "edible": true,
+      "stipe": "bar",
+      "sporePrint": "rosa"
+    }
+  },
+  {
+    "link": "https://sv.wikipedia.org/wiki/Brunsopp",
+    "name": "Brunsopp",
+    "characteristics": {
+      "hymenium": "rör",
+      "cap": "välvd",
+      "ridges": "vidfästa",
+      "edible": true,
+      "stipe": "bar",
+      "sporePrint": "oliv"
+    }
+  },
+  {
+    "link": "https://sv.wikipedia.org/wiki/Shiitake",
+    "name": "Shiitake",
+    "characteristics": {
+      "hymenium": "skivor",
+      "cap": "välvd",
+      "ridges": "fria",
+      "edible": true,
+      "stipe": "bar",
+      "sporePrint": "vit"
+    }
+  },
+  {
+    "link": "https://sv.wikipedia.org/wiki/Finluden_stensopp",
+    "name": "Finluden_stensopp",
+    "characteristics": {
+      "hymenium": "rör",
+      "cap": "välvd",
+      "ridges": "vidfästa",
+      "edible": true,
+      "stipe": "bar",
+      "sporePrint": "oliv"
+    }
+  },
+  {
+    "link": "https://sv.wikipedia.org/wiki/F%C3%A5rticka",
+    "name": "Fårticka",
+    "characteristics": {
+      "hymenium": "rör",
+      "cap": "välvd",
+      "ridges": "nedlöpande",
+      "edible": true,
+      "stipe": "bar"
+    }
+  },
+  {
+    "link": "https://sv.wikipedia.org/wiki/Grynsopp",
+    "name": "Grynsopp",
+    "characteristics": {
+      "hymenium": "rör",
+      "cap": "plan",
+      "ridges": "vidfästa",
+      "edible": true,
+      "stipe": "bar",
+      "sporePrint": "brun"
+    }
+  },
+  {
+    "link": "https://sv.wikipedia.org/wiki/Gulkremla",
+    "name": "Gulkremla",
+    "characteristics": {
+      "hymenium": "skivor",
+      "cap": "välvd",
+      "ridges": "fria",
+      "edible": true,
+      "stipe": "bar",
+      "sporePrint": "vit"
+    }
+  },
+  {
+    "link": "https://sv.wikipedia.org/wiki/H%C3%B6stmusseron",
+    "name": "Höstmusseron",
+    "characteristics": {
+      "hymenium": "skivor",
+      "cap": "välvd",
+      "ridges": "urnupna",
+      "edible": true,
+      "stipe": "bar",
+      "sporePrint": "rosa"
+    }
+  },
+  {
+    "link": "https://sv.wikipedia.org/wiki/Kantarell",
+    "name": "Kantarell",
+    "characteristics": {
+      "hymenium": "vecklad",
+      "cap": "trattlik",
+      "ridges": "inga",
+      "edible": true,
+      "stipe": "bar",
+      "sporePrint": "gult"
+    }
+  },
+  {
+    "link": "https://sv.wikipedia.org/wiki/Kantkremla",
+    "name": "Kantkremla",
+    "characteristics": {
+      "hymenium": "skivor",
+      "cap": "välvd",
+      "ridges": "fria",
+      "edible": true,
+      "stipe": "bar",
+      "sporePrint": "vit"
+    }
+  },
+  {
+    "link": "https://sv.wikipedia.org/wiki/Stensopp",
+    "name": "Stensopp",
+    "characteristics": {
+      "hymenium": "rör",
+      "cap": "välvd",
+      "ridges": "vidfästa",
+      "edible": true,
+      "stipe": "bar",
+      "sporePrint": "brun"
+    }
+  },
+  {
+    "link": "https://sv.wikipedia.org/wiki/L%C3%A4ckerriska",
+    "name": "Läckerriska",
+    "characteristics": {
+      "hymenium": "skivor",
+      "cap": "nedsänkt mitt",
+      "ridges": "nedlöpande",
+      "edible": true,
+      "stipe": "bar",
+      "sporePrint": "ljusbrun"
+    }
+  },
+  {
+    "link": "https://sv.wikipedia.org/wiki/Mandelriska",
+    "name": "Mandelriska",
+    "characteristics": {
+      "hymenium": "skivor",
+      "cap": "välvd",
+      "ridges": "vidfästa",
+      "edible": true,
+      "stipe": "bar",
+      "sporePrint": "vit"
+    }
+  },
+  {
+    "link": "https://sv.wikipedia.org/wiki/Ostronmussling",
+    "name": "Ostronmussling",
+    "characteristics": {
+      "hymenium": "skivor",
+      "cap": "förskjuten",
+      "ridges": "nedlöpande",
+      "edible": true,
+      "stipe": "bar",
+      "sporePrint": "vit"
+    }
+  },
+  {
+    "link": "https://sv.wikipedia.org/wiki/Rynkad_tofsskivling",
+    "name": "Rynkad_tofsskivling",
+    "characteristics": {
+      "hymenium": "skivor",
+      "cap": "välvd",
+      "ridges": "vidfästa",
+      "edible": false,
+      "stipe": "ring",
+      "sporePrint": "tegelröd"
+    }
+  },
+  {
+    "link": "https://sv.wikipedia.org/wiki/R%C3%B6dbrun_stensopp",
+    "name": "Rödbrun_stensopp",
+    "characteristics": {
+      "hymenium": "rör",
+      "cap": "välvd",
+      "ridges": "täta",
+      "edible": true,
+      "stipe": "bar"
+    }
+  },
+  {
+    "link": "https://sv.wikipedia.org/wiki/R%C3%B6dgul_trumpetsvamp",
+    "name": "Rödgul_trumpetsvamp",
+    "characteristics": {
+      "hymenium": "vecklad",
+      "cap": "trattlik",
+      "ridges": "nedlöpande",
+      "edible": true,
+      "stipe": "bar",
+      "sporePrint": "gräddfärgad"
+    }
+  },
+  {
+    "link": "https://sv.wikipedia.org/wiki/Scharlakansvaxskivling",
+    "name": "Scharlakansvaxskivling",
+    "characteristics": {
+      "hymenium": "skivor",
+      "cap": "välvd",
+      "ridges": "täta",
+      "edible": true,
+      "stipe": "bar",
+      "sporePrint": "vit"
+    }
+  },
+  {
+    "link": "https://sv.wikipedia.org/wiki/Sillkremla",
+    "name": "Sillkremla",
+    "characteristics": {
+      "hymenium": "skivor",
+      "cap": "välvd",
+      "ridges": "fria",
+      "edible": true,
+      "stipe": "bar",
+      "sporePrint": "tegelröd"
+    }
+  },
+  {
+    "link": "https://sv.wikipedia.org/wiki/Sm%C3%B6rsopp",
+    "name": "Smörsopp",
+    "characteristics": {
+      "hymenium": "rör",
+      "cap": "välvd",
+      "ridges": "vidfästa",
+      "edible": true,
+      "stipe": "ring",
+      "sporePrint": "brun"
+    }
+  },
+  {
+    "link": "https://sv.wikipedia.org/wiki/Stensopp",
+    "name": "Stensopp",
+    "characteristics": {
+      "hymenium": "rör",
+      "cap": "välvd",
+      "ridges": "vidfästa",
+      "edible": true,
+      "stipe": "bar",
+      "sporePrint": "brun"
+    }
+  },
+  {
+    "link": "https://sv.wikipedia.org/wiki/Stolt_fj%C3%A4llskivling",
+    "name": "Stolt_fjällskivling",
+    "characteristics": {
+      "hymenium": "skivor",
+      "cap": "med puckel",
+      "ridges": "fria",
+      "edible": true,
+      "stipe": "ring",
+      "sporePrint": "vit"
+    }
+  },
+  {
+    "link": "https://sv.wikipedia.org/wiki/Svart_trumpetsvamp",
+    "name": "Svart_trumpetsvamp",
+    "characteristics": {
+      "hymenium": "vecklad",
+      "cap": "trattlik",
+      "ridges": "nedlöpande",
+      "edible": true,
+      "stipe": "bar",
+      "sporePrint": "gräddfärgad"
+    }
+  },
+  {
+    "link": "https://sv.wikipedia.org/wiki/Toppmurkla",
+    "name": "Toppmurkla",
+    "characteristics": {
+      "hymenium": "slät",
+      "cap": "toppig",
+      "ridges": "inte tillämpbart",
+      "edible": true,
+      "stipe": "bar",
+      "sporePrint": "gräddfärgad"
+    }
+  },
+  {
+    "link": "https://sv.wikipedia.org/wiki/Trattkantarell",
+    "name": "Trattkantarell",
+    "characteristics": {
+      "hymenium": "vecklad",
+      "cap": "trattlik",
+      "ridges": "nedlöpande",
+      "edible": true,
+      "stipe": "bar",
+      "sporePrint": "gräddfärgad"
+    }
+  },
+  {
+    "link": "https://sv.wikipedia.org/wiki/V%C3%A5rmusseron",
+    "name": "Vårmusseron",
+    "characteristics": {
+      "hymenium": "skivor",
+      "cap": "välvd",
+      "ridges": "fria",
+      "edible": true,
+      "stipe": "bar",
+      "sporePrint": "vit"
+    }
+  },
+  {
+    "link": "https://sv.wikipedia.org/wiki/Citronmussling",
+    "name": "Citronmussling",
+    "characteristics": {
+      "hymenium": "skivor",
+      "cap": "plan",
+      "ridges": "nedlöpande",
+      "edible": true,
+      "stipe": "bar",
+      "sporePrint": "rosa"
+    }
+  },
+  {
+    "link": "https://sv.wikipedia.org/wiki/Citronslemskivling",
+    "name": "Citronslemskivling",
+    "characteristics": {
+      "hymenium": "skivor",
+      "cap": "plan",
+      "ridges": "nedlöpande",
+      "edible": true,
+      "stipe": "ring",
+      "sporePrint": "svartbrun"
+    }
+  },
+  {
+    "link": "https://sv.wikipedia.org/wiki/Fj%C3%A4llig_bl%C3%A4cksvamp",
+    "name": "Fjällig_bläcksvamp",
+    "characteristics": {
+      "hymenium": "skivor",
+      "cap": "toppig",
+      "ridges": "fria",
+      "edible": true,
+      "stipe": "ring",
+      "sporePrint": "svart"
+    }
+  },
+  {
+    "link": "https://sv.wikipedia.org/wiki/F%C3%B6r%C3%A4nderlig_tofsskivling",
+    "name": "Föränderlig_tofsskivling",
+    "characteristics": {
+      "hymenium": "skivor",
+      "cap": "välvd",
+      "ridges": "täta",
+      "edible": true,
+      "stipe": "ring",
+      "sporePrint": "brun"
+    }
+  },
+  {
+    "link": "https://sv.wikipedia.org/wiki/Goliatmusseron",
+    "name": "Goliatmusseron",
+    "characteristics": {
+      "hymenium": "skivor",
+      "cap": "välvd",
+      "ridges": "täta",
+      "edible": true,
+      "stipe": "ring",
+      "sporePrint": "vit"
+    }
+  },
+  {
+    "link": "https://sv.wikipedia.org/wiki/Halmslidskivling",
+    "name": "Halmslidskivling",
+    "characteristics": {
+      "hymenium": "skivor",
+      "cap": "toppig",
+      "ridges": "fria",
+      "edible": true,
+      "stipe": "strumpa",
+      "sporePrint": "laxrosa"
+    }
+  },
+  {
+    "link": "https://sv.wikipedia.org/wiki/Kejsarflugsvamp",
+    "name": "Kejsarflugsvamp",
+    "characteristics": {
+      "hymenium": "skivor",
+      "cap": "välvd",
+      "ridges": "fria",
+      "edible": true,
+      "stipe": "ring och strumpa",
+      "sporePrint": "vit"
+    }
+  },
+  {
+    "link": "https://sv.wikipedia.org/wiki/Kn%C3%B6lchampinjon",
+    "name": "Knölchampinjon",
+    "characteristics": {
+      "hymenium": "skivor",
+      "cap": "välvd",
+      "ridges": "fria",
+      "edible": true,
+      "stipe": "ring",
+      "sporePrint": "brun"
+    }
+  },
+  {
+    "link": "https://sv.wikipedia.org/wiki/Korallticka",
+    "name": "Korallticka",
+    "characteristics": {
+      "hymenium": "rör",
+      "cap": "förskjuten",
+      "ridges": "nedlöpande",
+      "edible": true,
+      "stipe": "inte tillämpbart",
+      "sporePrint": "vit"
+    }
+  },
+  {
+    "link": "https://sv.wikipedia.org/wiki/Koralltaggsvamp",
+    "name": "Koralltaggsvamp",
+    "characteristics": {
+      "hymenium": "taggar",
+      "cap": "ingen",
+      "ridges": "nedlöpande",
+      "edible": true,
+      "stipe": "inte tillämpbart",
+      "sporePrint": "vit"
+    }
+  },
+  {
+    "link": "https://sv.wikipedia.org/wiki/Kungschampinjon",
+    "name": "Kungschampinjon",
+    "characteristics": {
+      "hymenium": "skivor",
+      "cap": "välvd",
+      "ridges": "fria",
+      "edible": true,
+      "stipe": "ring",
+      "sporePrint": "brun"
+    }
+  },
+  {
+    "link": "https://sv.wikipedia.org/wiki/Kungsmussling",
+    "name": "Kungsmussling",
+    "characteristics": {
+      "hymenium": "skivor",
+      "cap": "nedsänkt mitt",
+      "ridges": "nedlöpande",
+      "edible": true,
+      "stipe": "bar",
+      "sporePrint": "vit"
+    }
+  },
+  {
+    "link": "https://sv.wikipedia.org/wiki/L%C3%A4rksopp",
+    "name": "Lärksopp",
+    "characteristics": {
+      "hymenium": "rör",
+      "cap": "välvd",
+      "edible": true,
+      "stipe": "ring",
+      "sporePrint": "tegelröd"
+    }
+  },
+  {
+    "link": "https://sv.wikipedia.org/wiki/Pepparriska",
+    "name": "Pepparriska",
+    "characteristics": {
+      "hymenium": "skivor",
+      "cap": "välvd",
+      "ridges": "nedlöpande",
+      "edible": true,
+      "stipe": "bar",
+      "sporePrint": "vit"
+    }
+  },
+  {
+    "link": "https://sv.wikipedia.org/wiki/Rund_toppmurkla",
+    "name": "Rund_toppmurkla",
+    "characteristics": {
+      "hymenium": "slät",
+      "cap": "toppig",
+      "ridges": "ingen",
+      "edible": true,
+      "stipe": "bar",
+      "sporePrint": "gräddfärgad"
+    }
+  },
+  {
+    "link": "https://sv.wikipedia.org/wiki/Sk%C3%A4ggriska",
+    "name": "Skäggriska",
+    "characteristics": {
+      "hymenium": "skivor",
+      "cap": "välvd",
+      "ridges": "nedlöpande",
+      "edible": true,
+      "stipe": "bar",
+      "sporePrint": "gul"
+    }
+  },
+  {
+    "link": "https://sv.wikipedia.org/wiki/Sn%C3%B6bollschampinjon",
+    "name": "Snöbollschampinjon",
+    "characteristics": {
+      "hymenium": "skivor",
+      "cap": "välvd",
+      "ridges": "fria",
+      "edible": true,
+      "stipe": "ring",
+      "sporePrint": "brun"
+    }
+  },
+  {
+    "link": "https://sv.wikipedia.org/wiki/Sommartryffel",
+    "name": "Sommartryffel",
+    "characteristics": {
+      "hymenium": "gleba",
+      "cap": "inte tillämpbart",
+      "ridges": "inte tillämpbart",
+      "edible": true,
+      "stipe": "inte tillämpbart",
+      "sporePrint": "svartbrun"
+    }
+  },
+  {
+    "link": "https://sv.wikipedia.org/wiki/Stenmurkla",
+    "name": "Stenmurkla",
+    "characteristics": {
+      "hymenium": "vecklad",
+      "cap": "välvd",
+      "ridges": "inga",
+      "edible": false,
+      "stipe": "bar",
+      "sporePrint": "gult"
+    }
+  },
+  {
+    "link": "https://sv.wikipedia.org/wiki/Storkremla",
+    "name": "Storkremla",
+    "characteristics": {
+      "hymenium": "skivor",
+      "cap": "välvd",
+      "ridges": "nedlöpande",
+      "edible": true,
+      "stipe": "bar",
+      "sporePrint": "tegelröd"
+    }
+  },
+  {
+    "link": "https://sv.wikipedia.org/wiki/Streckmusseron",
+    "name": "Streckmusseron",
+    "characteristics": {
+      "hymenium": "skivor",
+      "cap": "välvd",
+      "ridges": "vidfästa",
+      "edible": true,
+      "stipe": "bar",
+      "sporePrint": "vit"
+    }
+  },
+  {
+    "link": "https://sv.wikipedia.org/wiki/Tr%C3%A4dg%C3%A5rdschampinjon",
+    "name": "Trädgårdschampinjon",
+    "characteristics": {
+      "hymenium": "skivor",
+      "cap": "välvd",
+      "ridges": "fria",
+      "edible": true,
+      "stipe": "{{{fotkaraktär}}}",
+      "sporePrint": "brun"
+    }
+  },
+  {
+    "link": "https://sv.wikipedia.org/wiki/Vinterskivling",
+    "name": "Vinterskivling",
+    "characteristics": {
+      "hymenium": "skivor",
+      "cap": "välvd",
+      "ridges": "täta",
+      "edible": true,
+      "stipe": "bar",
+      "sporePrint": "vit"
+    }
+  },
+  {
+    "link": "https://sv.wikipedia.org/wiki/Violgubbe",
+    "name": "Violgubbe",
+    "characteristics": {
+      "hymenium": "vecklad",
+      "cap": "trattlik",
+      "ridges": "nedlöpande",
+      "edible": true,
+      "stipe": "bar",
+      "sporePrint": "gul"
+    }
+  },
+  {
+    "link": "https://sv.wikipedia.org/wiki/V%C3%A4gchampinjon",
+    "name": "Vägchampinjon",
+    "characteristics": {
+      "hymenium": "skivor",
+      "cap": "välvd",
+      "ridges": "fria",
+      "edible": false,
+      "stipe": "ring",
+      "sporePrint": "brun"
+    }
+  },
+  {
+    "link": "https://sv.wikipedia.org/wiki/%C3%84ngschampinjon",
+    "name": "Ängschampinjon",
+    "characteristics": {
+      "hymenium": "skivor",
+      "cap": "välvd",
+      "ridges": "fria",
+      "edible": true,
+      "stipe": "ring",
+      "sporePrint": "brun"
+    }
+  }
+]

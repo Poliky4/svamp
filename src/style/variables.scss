@@ -1,0 +1,11 @@
+@import "include-media/dist/_include-media.scss";
+
+$breakpoints: (
+  phone: 640px,
+  tablet: 768px,
+  desktop: 1024px,
+) !default;
+
+$space-50: 8px;
+$space-100: 16px;
+$space-200: 32px;

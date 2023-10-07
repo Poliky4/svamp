@@ -1,0 +1,17 @@
+@import "./reset.scss";
+@import "./variables.scss";
+
+html {
+  font-family: sans-serif;
+}
+
+html,
+body,
+#app {
+  height: 100%;
+  overflow-x: hidden; /* for animations */
+}
+
+#app {
+  background-color: darkolivegreen;
+}
