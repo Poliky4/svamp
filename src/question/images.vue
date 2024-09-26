@@ -1,13 +1,28 @@
 <script setup>
-import { ref, watch } from "vue"
+import { computed, ref, watch } from "vue"
 
 const props = defineProps({
+  id: String,
   image1: String,
   image2: String,
   image3: String,
 })
 
+const images = computed(() => [props.image1, props.image2, props.image3]);
+
 const activeImage = ref()
+
+function previousImage() {
+  const activeImageIndex = images.value.indexOf(activeImage.value)
+  const previousImage = images.value[activeImageIndex - 1] || images.value[2];
+  activeImage.value = previousImage;
+}
+
+function nextImage() {
+  const activeImageIndex = images.value.indexOf(activeImage.value)
+  const nextImage = images.value[activeImageIndex + 1] || images.value[0];
+  activeImage.value = nextImage;
+}
 
 watch(
   () => props.id,
@@ -17,21 +32,19 @@ watch(
 
 <template>
   <div class="images">
-    <div class="image cap" @click="activeImage = props.image1">
+    <div v-if="!activeImage" class="image cap" @click="activeImage = props.image1">
       <img :src="props.image1" />
     </div>
-    <div class="image hymenium" @click="activeImage = props.image2">
+    <div v-if="!activeImage" class="image hymenium" @click="activeImage = props.image2">
       <img :src="props.image2" />
     </div>
-    <div class="image stipe" @click="activeImage = props.image3">
+    <div v-if="!activeImage" class="image stipe" @click="activeImage = props.image3">
       <img :src="props.image3" />
     </div>
-    <div
-      class="image activeImage"
-      v-if="activeImage"
-      @click="activeImage = null"
-    >
-      <img :src="activeImage" />
+    <div v-if="activeImage" class="image activeImage">
+      <div @click="previousImage()" class="previous">◄</div>
+      <img @click="activeImage = null" :src="activeImage" />
+      <div @click="nextImage()" class="next">►</div>
     </div>
   </div>
 </template>
@@ -47,7 +60,7 @@ watch(
     "c a";
   gap: 8px;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: repeat(2, clamp(100px, 22vh, 200px));
+  grid-template-rows: repeat(2, clamp(100px, 16vh, 200px));
 
   @include media(">desktop") {
     grid-template-rows: repeat(2, 200px);
@@ -73,7 +86,6 @@ watch(
     position: absolute;
     width: 100%;
     height: 100%;
-    background-color: #006600;
 
     img {
       object-fit: contain;
@@ -92,6 +104,30 @@ watch(
     grid-area: c;
     display: flex;
     align-items: flex-end;
+  }
+
+  .previous, .next {
+    position: absolute;
+    $size: 32px;
+    width: $size;
+    height:$size;
+    border-radius: 999px;
+    background-color: rgb(0, 0, 0, 0.7);
+    color: #888888;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+  }
+
+  .previous {
+    top: 50%;
+    left: 16px;
+  }
+
+  .next {
+    top: 50%;
+    right: 16px;
   }
 }
 </style>
