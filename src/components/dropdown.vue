@@ -129,7 +129,6 @@ const sortedOptions = computed(() => props.openUp ? [...props.options].reverse()
       text-align: start;
       padding: 8px 16px;
       font-size: 22px;
-      font-family: cursive;
       cursor: pointer;
 
       &:hover {

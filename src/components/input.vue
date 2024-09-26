@@ -40,7 +40,6 @@ input {
   border-radius: 8px;
   outline: none;
   cursor: pointer;
-  font-family: cursive;
 
   &.valid {
     border: 2px solid green;
