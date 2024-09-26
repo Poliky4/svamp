@@ -1,5 +1,24 @@
 [
   {
+    "id": "adff206a-fd87-4b1f-ae1a-3ecf0ca4f80b",
+    "link": "https://sv.wikipedia.org/wiki/Stensopp",
+    "name": "Stensopp",
+    "scientificName": "Boletus edulis",
+    "family": "Boletus",
+    "edible": true,
+    "cap": "välvd",
+    "ridges": "vidfästa",
+    "hymenium": "rör",
+    "stipe": "bar",
+    "sporePrint": "brun",
+    "environment": "löv- och barrskog",
+    "active": false,
+    "period": "aug-sept?",
+    "image1": "images/stensopp_h.jpg",
+    "image2": "images/stensopp_c.jpeg",
+    "image3": "images/stensopp_s.jpg"
+  },
+  {
     "id": "e0e1d95d-2fef-4e95-a2fb-7625576b2997",
     "link": "https://sv.wikipedia.org/wiki/Kantarell",
     "name": "Kantarell",
