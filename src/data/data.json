@@ -210,20 +210,6 @@
     "active": false
   },
   {
-    "id": "03ce233c-b82d-4fdc-9180-b353ee355a74",
-    "link": "https://sv.wikipedia.org/wiki/Stensopp",
-    "name": "Stensopp",
-    "scientificName": "Boletus edulis",
-    "family": "Boletus",
-    "edible": true,
-    "cap": "välvd",
-    "ridges": "vidfästa",
-    "hymenium": "vidfästa",
-    "stipe": "bar",
-    "sporePrint": "brun",
-    "active": false
-  },
-  {
     "id": "55d05a4f-275b-4880-b0fe-f1351468d9e0",
     "link": "https://sv.wikipedia.org/wiki/L%C3%A4ckerriska",
     "name": "Läckerriska",
