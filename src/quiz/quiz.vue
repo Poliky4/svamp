@@ -91,7 +91,7 @@ const filterOptions = () => {
     )
   }
 
-  if (!name.value.length || !matchingOptions.value.length) {
+  if (!name.value.length) {
     matchingOptions.value = data
   }
 }
