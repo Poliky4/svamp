@@ -164,6 +164,7 @@ function sprayConfetti() {
         <Dropdown
           dropdownClass="a"
           placeholder="Namn"
+          :openUp="true"
           :options="matchingOptions"
           :invalid="nameError"
           :valid="nameCorrect"

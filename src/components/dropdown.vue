@@ -11,6 +11,7 @@ const props = defineProps({
   options: Array,
   labelKey: String,
   labelRenderer: Function,
+  openUp: Boolean,
 })
 
 const emits = defineEmits(["input", "click", "open", "close"])
@@ -37,11 +38,13 @@ const onFocus = (e) => {
 }
 
 const showOptions = computed(() => open.value && !!props.options.length)
+
+const sortedOptions = computed(() => props.openUp ? [...props.options].reverse() : props.options);
 </script>
 
 <template>
   <div class="backdrop" v-if="showOptions" @click="onClose" />
-  <div class="dropdown" :class="[dropdownClass, { open: showOptions }]">
+  <div class="dropdown" :class="[dropdownClass, { open: showOptions, up: openUp }]">
     <Input
       type="text"
       :value="modelValue"
@@ -52,11 +55,11 @@ const showOptions = computed(() => open.value && !!props.options.length)
       @click="onOpen"
       @focus="onFocus"
     />
-    <div class="options" v-if="showOptions">
+    <div class="options" :class="{ up: openUp }" v-if="showOptions">
       <div
         class="option"
         @click="onOptionClick(option)"
-        v-for="option of options"
+        v-for="option of sortedOptions"
       >
         <span>
           {{ labelKey ? option[labelKey] : labelRenderer?.(option) }}
@@ -86,9 +89,17 @@ const showOptions = computed(() => open.value && !!props.options.length)
   &.open {
     z-index: 1001;
 
-    input {
-      border-bottom-left-radius: 0px;
-      border-bottom-right-radius: 0px;
+    &:not(.up) {
+      input {
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+      }
+    }
+    &.up {
+      input {
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+      }
     }
   }
 
@@ -100,9 +111,18 @@ const showOptions = computed(() => open.value && !!props.options.length)
     // max-height: min(220px, 25vh);
     z-index: 10;
     background-color: white;
-    border-bottom-left-radius: 8px;
-    border-bottom-right-radius: 8px;
     overflow-y: auto;
+
+    &:not(.up) {
+      border-bottom-left-radius: 8px;
+      border-bottom-right-radius: 8px;
+    }
+
+    &.up {
+      bottom: 100%;
+      border-top-left-radius: 8px;
+      border-top-right-radius: 8px;
+    }
 
     .option {
       width: 100%;
