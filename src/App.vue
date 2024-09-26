@@ -50,6 +50,10 @@ main {
     z-index: 10000;
   }
 
+  .content {
+    height: 100%;
+  }
+
   @include media(">desktop") {
     z-index: unset;
     padding: $space-200;

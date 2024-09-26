@@ -184,20 +184,19 @@ function sprayConfetti() {
         >
           Ätlig
         </Button>
+        <Button ref="nextButtonRef" class="c button next" @click="nextQuestion">
+          <span v-if="!done">Skippa</span>
+          <span v-if="done">Nästa</span>
+        </Button>
         <Button
           negative
-          class="c button"
+          class="d button"
           :class="[{ invalid: poisonousError, valid: poisonousCorrect }]"
           @click="onAnswerClick(false)"
         >
           Giftig
         </Button>
       </div>
-      <!-- <Divider /> -->
-      <Button ref="nextButtonRef" class="button next" @click="nextQuestion">
-        <span v-if="!done">Skippa</span>
-        <span v-if="done">Nästa</span>
-      </Button>
     </Question>
   </div>
 </template>
@@ -205,14 +204,16 @@ function sprayConfetti() {
 <style scoped lang="scss">
 @import "../style/variables.scss";
 .quiz {
+  height: 100%;
 }
 :deep(.input) {
+  margin-top: auto;
   margin-bottom: 32px;
 
   display: grid;
   grid-template-areas:
-    "a a a a"
-    "b b c c";
+    "a a a a a"
+    "b b c d d";
   grid-template-columns: repeat(auto, 4);
   grid-template-rows: 60px 60px;
   gap: 16px;
