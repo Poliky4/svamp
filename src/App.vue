@@ -1,37 +1,22 @@
 <script setup>
-import { ref } from "vue"
-import { RouterLink, RouterView } from "vue-router"
+import { RouterView } from "vue-router"
 
-import Quiz from "./quiz/quiz.vue"
-import Library from "./library/library.vue"
 import Nav from "./components/nav.vue"
 import NavLink from "./components/nav.link.vue"
-
-const ROUTES = {
-  QUIZ: "Quiz",
-  LIBRARY: "Library",
-}
-
-const route = ref(ROUTES.QUIZ)
-
-const changeRoute = (newRoute) => (route.value = newRoute)
+import { routes } from "./router"
 </script>
 
 <template>
   <main>
     <div class="left">
-      <Nav>
-        <NavLink
-          v-for="route in Object.values(ROUTES)"
-          small
-          @click="changeRoute(route)"
-          >{{ route }}</NavLink
-        >
-      </Nav>
+      <!-- <Nav>
+        <NavLink v-for="route in routes" small :to="route.path">{{
+          route.label
+        }}</NavLink>
+      </Nav> -->
     </div>
     <div class="content">
-      <Quiz v-if="route === ROUTES.QUIZ" />
-      <Library v-if="route === ROUTES.LIBRARY" />
+      <RouterView />
     </div>
     <div class="right"></div>
   </main>

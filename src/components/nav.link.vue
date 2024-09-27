@@ -1,11 +1,18 @@
 <script setup>
+import { RouterLink } from "vue-router"
 import Button from "./button.vue"
+
+const props = defineProps({
+  to: String,
+})
 </script>
 
 <template>
-  <Button small class="link">
-    <slot />
-  </Button>
+  <RouterLink :to="props.to">
+    <Button small class="link">
+      <slot />
+    </Button>
+  </RouterLink>
 </template>
 
 <style scoped lang="scss">
