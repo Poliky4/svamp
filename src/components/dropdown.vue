@@ -1,5 +1,5 @@
 <script setup>
-import { ref, computed } from "vue"
+import { ref, computed, watch } from "vue"
 import Input from "./input.vue"
 
 const props = defineProps({
@@ -17,6 +17,7 @@ const props = defineProps({
 const emits = defineEmits(["input", "click", "open", "close"])
 
 const open = ref(false)
+const optionsRef = ref()
 
 const onInput = (e) => {
   emits("input", e.target.value)
@@ -39,12 +40,26 @@ const onFocus = (e) => {
 
 const showOptions = computed(() => open.value && !!props.options.length)
 
-const sortedOptions = computed(() => props.openUp ? [...props.options].reverse() : props.options);
+const sortedOptions = computed(() =>
+  props.openUp ? [...props.options].reverse() : props.options,
+)
+
+watch(
+  () => [props.options, props.openUp],
+  () => {
+    if (props.openUp && optionsRef.value) {
+      optionsRef.value.scrollTop = 10000
+    }
+  },
+)
 </script>
 
 <template>
   <div class="backdrop" v-if="showOptions" @click="onClose" />
-  <div class="dropdown" :class="[dropdownClass, { open: showOptions, up: openUp }]">
+  <div
+    class="dropdown"
+    :class="[dropdownClass, { open: showOptions, up: openUp }]"
+  >
     <Input
       type="text"
       :value="modelValue"
@@ -55,8 +70,17 @@ const sortedOptions = computed(() => props.openUp ? [...props.options].reverse()
       @click="onOpen"
       @focus="onFocus"
     />
-    <div class="options" :class="{ up: openUp }" v-if="showOptions">
+    <div
+      :ref="
+        (el) => {
+          optionsRef = el
+        }
+      "
+      class="options"
+      :class="{ up: openUp }"
+    >
       <div
+        v-if="showOptions"
         class="option"
         @click="onOptionClick(option)"
         v-for="option of sortedOptions"
