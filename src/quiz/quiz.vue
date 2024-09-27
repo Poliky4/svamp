@@ -227,6 +227,9 @@ function sprayConfetti() {
   .c {
     grid-area: c;
   }
+  .d {
+    grid-area: d;
+  }
 }
 
 .button {
