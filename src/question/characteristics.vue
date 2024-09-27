@@ -41,6 +41,7 @@ const characteristics = computed(() =>
 
   display: flex;
   flex-flow: row wrap;
+  justify-content: center;
   gap: $space-100;
 
   @include media(">desktop") {
