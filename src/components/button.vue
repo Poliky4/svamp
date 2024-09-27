@@ -27,7 +27,7 @@ button {
   padding: 8px 16px;
   border: none;
   border-radius: 8px;
-  font-size: 24px;
+  font-size: 22px;
   font-weight: bold;
 
   transition:
@@ -35,6 +35,10 @@ button {
     box-shadow 150ms;
   transform: translate(0px, 0px);
   box-shadow: black 0px 0px 0px;
+
+  &:disabled {
+    opacity: 0.4;
+  }
 
   &.small {
     font-size: 16px;
@@ -48,7 +52,7 @@ button {
     background-color: red;
     color: white;
   }
-  &.clickable {
+  &.clickable:not(:disabled) {
     cursor: pointer;
 
     &:hover {

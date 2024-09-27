@@ -42,9 +42,9 @@ const onOptionClick = (selectedQuestion) => {
       />
       <div class="content" v-if="question">
         <Images v-bind="question" />
-        <Divider />
+        <!-- <Divider /> -->
         <Characteristics v-bind="question" />
-        <Divider />
+        <!-- <Divider /> -->
         <Button
           v-if="question.edible"
           positive
@@ -68,7 +68,7 @@ const onOptionClick = (selectedQuestion) => {
 
 <style scoped lang="scss">
 .content {
-  margin-top: 32px;
+  margin-top: 16px;
 
   .edibility {
     margin: 0 auto;

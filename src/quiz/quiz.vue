@@ -119,6 +119,7 @@ const onAnswerClick = (edible) => {
   const isNameCorrect = selectedOption.value?.id === question.value.id
   const isEdibleCorrect = edible === question.value.edible
 
+
   if (isNameCorrect && isEdibleCorrect) {
     sprayConfetti()
     done.value = true
@@ -135,9 +136,9 @@ const onAnswerClick = (edible) => {
 
   if (isEdibleCorrect) {
     if (edible) {
-      // edibleCorrect.value = true;
+      edibleCorrect.value = true;
     } else {
-      // poisonousCorrect.value = true;
+      poisonousCorrect.value = true;
     }
   } else {
     if (edible) {
@@ -163,7 +164,7 @@ function sprayConfetti() {
       <div class="input">
         <Dropdown
           dropdownClass="a"
-          placeholder="Namn"
+          placeholder="Vad heter svampen?"
           :openUp="true"
           :options="matchingOptions"
           :invalid="nameError"
@@ -178,6 +179,7 @@ function sprayConfetti() {
         />
         <Button
           positive
+          :disabled="poisonousCorrect"          
           class="b button"
           :class="[{ invalid: edibleError, valid: edibleCorrect }]"
           @click="onAnswerClick(true)"
@@ -190,6 +192,7 @@ function sprayConfetti() {
         </Button>
         <Button
           negative
+          :disabled="edibleCorrect"
           class="d button"
           :class="[{ invalid: poisonousError, valid: poisonousCorrect }]"
           @click="onAnswerClick(false)"
@@ -208,14 +211,13 @@ function sprayConfetti() {
 }
 :deep(.input) {
   margin-top: auto;
-  margin-bottom: 32px;
 
   display: grid;
   grid-template-areas:
     "a a a a a"
     "b b c d d";
   grid-template-columns: repeat(auto, 4);
-  grid-template-rows: 60px 60px;
+  grid-template-rows: 42px 46px;
   gap: 16px;
 
   .a {

@@ -52,7 +52,7 @@ watch(
 <style scoped lang="scss">
 @import "../style/variables.scss";
 .images {
-  margin-bottom: 32px;
+  margin-bottom: 16px;
   position: relative;
   display: grid;
   grid-template-areas:

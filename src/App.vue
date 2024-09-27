@@ -48,6 +48,9 @@ main {
   .left {
     position: absolute;
     z-index: 10000;
+
+    display: flex;
+    flex-flow: column nowrap;
   }
 
   .content {

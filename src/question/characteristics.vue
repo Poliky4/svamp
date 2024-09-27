@@ -37,7 +37,7 @@ const characteristics = computed(() =>
 .characteristics {
   // color: black;
   color: white;
-  margin-bottom: $space-200;
+  margin-bottom: $space-100;
 
   display: flex;
   flex-flow: row wrap;
