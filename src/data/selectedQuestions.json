@@ -90,5 +90,23 @@
     "image1": "images/parasol_s.webp",
     "image2": "images/parasol_c.jpg",
     "image3": "images/parasol_h.jpg"
+  },
+  {
+    "id": "e8313916-6dcf-44a7-b07f-3e718272fbad",
+    "link": "https://sv.wikipedia.org/wiki/Svart_trumpetsvamp",
+    "name": "Svart trumpetsvamp",
+    "scientificName": "Craterellus cornucopioides",
+    "family": "Craterellus",
+    "edible": true,
+    "cap": "trattlik",
+    "ridges": "nedlöpande",
+    "hymenium": "vecklad",
+    "stipe": "bar",
+    "sporePrint": "gräddfärgad",
+    "environment": "Barrskog",
+    "period": "aug-okt",
+    "image1": "images/svart trumpetsvamp_s.jpg",
+    "image2": "images/svart trumpetsvamp_c.jpg",
+    "image3": "images/svart trumpetsvamp_h.jpg"
   }
 ]
