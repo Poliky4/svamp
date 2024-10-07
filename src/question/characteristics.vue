@@ -35,14 +35,16 @@ const characteristics = computed(() =>
 <style scoped lang="scss">
 @import "../style/variables.scss";
 .characteristics {
-  // color: black;
-  color: white;
+  overflow: auto;
+
   margin-bottom: $space-100;
 
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
   gap: $space-100;
+
+  color: white;
 
   @include media(">desktop") {
     display: grid;
