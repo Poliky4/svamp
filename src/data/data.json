@@ -420,6 +420,20 @@
     "active": false
   },
   {
+    "id": "440fcfc7-629b-4767-b5dd-d92380829a93",
+    "link": "https://sv.wikipedia.org/wiki/Stor_lökbrosking",
+    "name": "Stor lökbrosking",
+    "scientificName": "Marasmius alliaceus,",
+    "family": "Marasmius",
+    "edible": true,
+    "cap": "välvd",
+    "ridges": "vidfästa",
+    "hymenium": "vidfästa",
+    "stipe": "bar",
+    "sporePrint": "vit",
+    "active": false
+  },
+  {
     "id": "7b7b15b7-d588-4cb1-a7ae-52932c2eff84",
     "link": "https://sv.wikipedia.org/wiki/Citronmussling",
     "name": "Citronmussling",

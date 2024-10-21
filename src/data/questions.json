@@ -98,6 +98,20 @@
     "active": false
   },
   {
+    "id": "440fcfc7-629b-4767-b5dd-d92380829a93",
+    "link": "https://sv.wikipedia.org/wiki/Stor_lökbrosking",
+    "name": "Stor lökbrosking",
+    "scientificName": "Marasmius alliaceus,",
+    "family": "Marasmius",
+    "edible": true,
+    "cap": "välvd",
+    "ridges": "vidfästa",
+    "hymenium": "vidfästa",
+    "stipe": "bar",
+    "sporePrint": "vit",
+    "active": false
+  },
+  {
     "id": "1d470384-96b3-4c37-93bb-cc11b0113a46",
     "link": "https://sv.wikipedia.org/wiki/R%C3%B6d_flugsvamp",
     "name": "Röd flugsvamp",

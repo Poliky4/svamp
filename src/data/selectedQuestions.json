@@ -108,5 +108,23 @@
     "image1": "images/svart trumpetsvamp_s.jpg",
     "image2": "images/svart trumpetsvamp_c.jpg",
     "image3": "images/svart trumpetsvamp_h.jpg"
+  },
+  {
+    "id": "440fcfc7-629b-4767-b5dd-d92380829a93",
+    "link": "https://sv.wikipedia.org/wiki/Stor_lökbrosking",
+    "name": "Stor lökbrosking",
+    "scientificName": "Marasmius alliaceus,",
+    "family": "Marasmius",
+    "edible": true,
+    "cap": "välvd",
+    "ridges": "vidfästa",
+    "hymenium": "vidfästa",
+    "stipe": "bar",
+    "sporePrint": "vit",
+    "environment": "Bokskog",
+    "period": "jul-okt",
+    "image1": "images/stor lökbrosking_s.jpg",
+    "image2": "images/stor lökbrosking_c.jpeg",
+    "image3": "images/stor lökbrosking_h.jpeg"
   }
 ]
