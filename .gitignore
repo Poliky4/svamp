@@ -1,3 +1,5 @@
+scripts/scraper/data/**/*
+
 # Logs
 logs
 *.log

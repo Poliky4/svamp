@@ -43,6 +43,8 @@ module.exports = {
     "https://sv.wikipedia.org/wiki/Trattkantarell",
     "https://sv.wikipedia.org/wiki/V%C3%A5rmusseron",
     "https://sv.wikipedia.org/wiki/Vinkremla",
+    
+    "https://sv.wikipedia.org/wiki/Stor_lökbrosking",
 
     // Poisonous
     "https://sv.wikipedia.org/wiki/Blodchampinjon",
