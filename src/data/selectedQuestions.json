@@ -126,5 +126,43 @@
     "image1": "images/stor lökbrosking_s.jpg",
     "image2": "images/stor lökbrosking_c.jpeg",
     "image3": "images/stor lökbrosking_h.jpeg"
+  },
+  {
+    "id": "6ba91019-1b61-488e-ba47-19c42e1dfecb",
+    "link": "https://sv.wikipedia.org/wiki/Blek_taggsvamp",
+    "name": "Blek taggsvamp",
+    "scientificName": "Hydnum repandum",
+    "family": "Hydnum",
+    "edible": true,
+    "cap": "nedsänkt mitt",
+    "ridges": "nedlöpande",
+    "hymenium": "nedlöpande",
+    "stipe": "bar",
+    "sporePrint": "vit",
+
+    "environment": "Löv- och barrskog",
+    "period": "aug-okt",
+    "image1": "images/blek taggsvamp_s.webp",
+    "image2": "images/blek taggsvamp_c.avif",
+    "image3": "images/blek taggsvamp_h.jpg"
+  },
+  {
+    "id": "c7aabf30-8070-4938-9802-1367e3aecc74",
+    "link": "https://sv.wikipedia.org/wiki/R%C3%B6dgul_trumpetsvamp",
+    "name": "Rödgul trumpetsvamp",
+    "scientificName": "Craterellus lutescens",
+    "family": "Craterellus",
+    "edible": true,
+    "cap": "trattlik",
+    "ridges": "nedlöpande",
+    "hymenium": "nedlöpande",
+    "stipe": "bar",
+    "sporePrint": "gräddfärgad",
+
+    "environment": "Barrskog",
+    "period": "jul-nov",
+    "image1": "images/rödgul trumpetsvamp_s.jpg",
+    "image2": "images/rödgul trumpetsvamp_c.jpg",
+    "image3": "images/rödgul trumpetsvamp_h.jpeg"
   }
 ]

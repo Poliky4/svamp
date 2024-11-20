@@ -124,5 +124,19 @@
     "stipe": "ring och strumpa",
     "sporePrint": "vit",
     "active": true
+  },
+  {
+    "id": "c7aabf30-8070-4938-9802-1367e3aecc74",
+    "link": "https://sv.wikipedia.org/wiki/R%C3%B6dgul_trumpetsvamp",
+    "name": "Rödgul trumpetsvamp",
+    "scientificName": "Craterellus lutescens",
+    "family": "Craterellus",
+    "edible": true,
+    "cap": "trattlik",
+    "ridges": "nedlöpande",
+    "hymenium": "nedlöpande",
+    "stipe": "bar",
+    "sporePrint": "gräddfärgad",
+    "active": false
   }
 ]

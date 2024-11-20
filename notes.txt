@@ -3,8 +3,12 @@ TODO
 Lägga till svampar
 - Senapskremla
 - Svavelticka (chicken of the woods)
-- Blek taggsvamp
-- Stor lökbroskling
 - Liten lökbroskling
 
 Vilka träd växer dom vid?
+Förväxlingssvampar
+Bygga egna quiz (välja vilka svampar som ska vara med och om deras förväxlingssvampar ska inkluderas)
+
+Använda paket för bildgallery?
+
+attribut system för filtrering?
